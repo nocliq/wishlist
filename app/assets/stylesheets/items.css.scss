@@ -1,3 +1,45 @@
 // Place all the styles related to the Items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.item {
+    background-color: #FFFEDF;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: .5em;
+}
+
+.item_title_bar {
+    width: 100%;
+    padding-right: 1em;
+    padding-left: 1em;
+
+    h1 {
+        margin: 0 0 0 0;
+    }
+}
+
+.item_header h1 {
+    display: inline;
+    float: left;
+}
+
+.item_price {
+    float: right;
+}
+
+.item_body {
+    clear: both;
+
+    img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    blockquote {
+        font-style: italic;
+    }
+}
+
